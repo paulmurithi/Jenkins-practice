@@ -3,18 +3,18 @@ pipeline{
     stages{
         stage("Clone"){
             steps{
-                sh echo "cloning"
-                sh git 'https://github.com/paulmurithi/Jenkins-practice.git'
+                sh "echo cloning"
+                git 'https://github.com/paulmurithi/Jenkins-practice.git'
             }
         }
         stage("build"){
             steps{
-                sh echo "building"
+                sh "echo building"
             }
         }
         stage("Test"){
             steps{
-                sh echo "Testing"
+                sh "echo Testing"
             }
         }
     }
