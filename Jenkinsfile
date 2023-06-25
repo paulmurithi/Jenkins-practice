@@ -18,7 +18,7 @@ pipeline{
             }
         }
     }
-    pst{
+    post{
         always{
             echo "post executing"
         }
