@@ -18,4 +18,9 @@ pipeline{
             }
         }
     }
+    pst{
+        always{
+            echo "post executing"
+        }
+    }
 }
