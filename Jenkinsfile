@@ -3,7 +3,6 @@ pipeline{
     stages{
         stage("Clone"){
             steps{
-                sh echo "testing failed message"
                 echo "cloning.."
                 git 'https://github.com/paulmurithi/Jenkins-practice.git'
             }
